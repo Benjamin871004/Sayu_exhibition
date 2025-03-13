@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Sayu_exhibition/static/css/main.c7c35625.css",
+    "main.js": "/Sayu_exhibition/static/js/main.a0a1995f.js",
+    "static/media/listen_sea.gif": "/Sayu_exhibition/static/media/listen_sea.e11fa480b1ff1529bdfd.gif",
+    "static/media/moonlight_secret.mp3": "/Sayu_exhibition/static/media/moonlight_secret.1ff4447b81c674ea0258.mp3",
+    "static/media/listen_sea.mp3": "/Sayu_exhibition/static/media/listen_sea.dd3f3a257a6e20c7527c.mp3",
+    "static/media/water_whisper.mp3": "/Sayu_exhibition/static/media/water_whisper.c3f409979b95b317eee5.mp3",
+    "static/media/playing_icon.png": "/Sayu_exhibition/static/media/playing_icon.d517e7f4d13898bcffe7.png",
+    "index.html": "/Sayu_exhibition/index.html",
+    "main.c7c35625.css.map": "/Sayu_exhibition/static/css/main.c7c35625.css.map",
+    "main.a0a1995f.js.map": "/Sayu_exhibition/static/js/main.a0a1995f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c7c35625.css",
+    "static/js/main.a0a1995f.js"
+  ]
+}
