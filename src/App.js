@@ -31,14 +31,31 @@ const App = () => {
       <img src={seaGif} className="bg-gif" draggable="false" alt="background gif" />
 
       <div className='button_list'>
-        <div className={soundIndex===0?'playing_button':'sound_button' } onClick={() => setSoundIndex(soundIndex === 0 ? -1 : 0)}>
-          聽海的呢喃
+        <div className='button_con'>
+
+          <div
+            className={'sound_button'}
+            onClick={() => setSoundIndex(soundIndex === 0 ? -1 : 0)}
+          >
+            <div className='diffusion' style={{
+              width: soundIndex === 0 ? '100%' : '0%',
+            }} />
+            聽海的呢喃
+          </div>
         </div>
-        <div className={soundIndex===1?'playing_button':'sound_button' } onClick={() => setSoundIndex(soundIndex === 1 ? -1 : 1)}>
-          月夜秘境
+        <div className='button_con'>
+          <div className={'sound_button'}
+            onClick={() => setSoundIndex(soundIndex === 1 ? -1 : 1)}>
+            <div className='diffusion' style={{ width: soundIndex === 1 ? '100%' : '0%' }} />
+            月夜秘境
+          </div>
         </div>
-        <div className={soundIndex===2?'playing_button':'sound_button' } onClick={() => setSoundIndex(soundIndex === 2 ? -1 : 2)}>
-          水韻微語    
+        <div className='button_con'>
+          <div className={'sound_button'}
+            onClick={() => setSoundIndex(soundIndex === 2 ? -1 : 2)}>
+            <div className='diffusion' style={{ width: soundIndex === 2 ? '100%' : '0%' }} />
+            水韻微語
+          </div>
         </div>
       </div>
 
